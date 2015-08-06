@@ -1980,9 +1980,9 @@ containing a value of this type.
         public static final int list_item=0x7f09002a;
         public static final int media_actions=0x7f090054;
         public static final int middle=0x7f090022;
-        public static final int mnTela1=0x7f09005e;
-        public static final int mnTela2=0x7f09005f;
-        public static final int mnTela3=0x7f090060;
+        public static final int mnTela1=0x7f09005f;
+        public static final int mnTela2=0x7f090060;
+        public static final int mnTela3=0x7f090061;
         public static final int multiply=0x7f090014;
         public static final int never=0x7f09001c;
         public static final int none=0x7f09000f;
@@ -1991,6 +1991,7 @@ containing a value of this type.
         public static final int progress_circular=0x7f090007;
         public static final int progress_horizontal=0x7f090008;
         public static final int radio=0x7f09003a;
+        public static final int radioButton1=0x7f09005e;
         public static final int screen=0x7f090015;
         public static final int scrollView=0x7f090032;
         public static final int search_badge=0x7f090044;
@@ -2104,6 +2105,7 @@ containing a value of this type.
         public static final int select_dialog_singlechoice_material=0x7f030024;
         public static final int support_simple_spinner_dropdown_item=0x7f030025;
         public static final int tela_2=0x7f030026;
+        public static final int tela_3=0x7f030027;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;

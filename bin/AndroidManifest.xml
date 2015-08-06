@@ -24,6 +24,9 @@
         </activity>
         <activity 
             android:name="com.aulaandroid.estudoactivitys.Tela_2"></activity>
+        <activity 
+            android:name="com.aulaandroid.estudoactivitys.Tela_3"></activity>
     </application>
+    
 
 </manifest>

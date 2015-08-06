@@ -41,20 +41,30 @@ public class Main extends ActionBarActivity {
 	
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
+
+		Intent i = null;
+		
 		switch(item.getItemId()){
+
 			case R.id.mnTela1:
 				Toast.makeText(this, "Tela 1", Toast.LENGTH_LONG).show();;
+				
 				break;
 				
 			case R.id.mnTela2:
-				Toast.makeText(this, "Tela 2", Toast.LENGTH_LONG).show();;
 				
+				i = new Intent(this, Tela_2.class);
+				Toast.makeText(this, "Tela 2", Toast.LENGTH_LONG).show();;
 				break;
 			case R.id.mnTela3:
-				Toast.makeText(this, "Tela 3", Toast.LENGTH_LONG).show();;
 				
+				i = new Intent(this, Tela_3.class);
+				Toast.makeText(this, "Tela 3", Toast.LENGTH_LONG).show();;
 				break;
+				
 		}
+
+		startActivity( i );
 		return super.onOptionsItemSelected(item);
 	}
 }
